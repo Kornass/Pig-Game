@@ -64,9 +64,8 @@ btnRoll.addEventListener('click', function () {
     //IF NOT A 1 --> ADD TO CURRENT SCORE
     if (dice !== 1) {
       currentScore += dice;
-      document.getElementById(
-        `current--${activePlayer}`
-      ).textContent = currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore;
     } else {
       // Switching to next player
       switchingPlayers();
@@ -81,7 +80,7 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
     // 2. Chceck if total score is 100, if below, switch the player, if >= then active player wins
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 50) {
       //Finish the game
       playing = false;
       diceEl.classList.add('hidden');
