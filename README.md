@@ -2,6 +2,8 @@
 
 This is a dice game for 2 players created with HTML/CSS/JS
 
+## Live version: https://funny-mooncake-7fdcec.netlify.app/
+
 ## Reach 100 to win the game!
 
 Instructions:
