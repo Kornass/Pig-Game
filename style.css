@@ -113,11 +113,9 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
-
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -168,4 +166,70 @@ main {
 
 .hidden {
   display: none;
+}
+@media all and (max-width: 1000px) {
+  main {
+    width: 70rem;
+    height: 40rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .btn--roll {
+    top: 23rem;
+  }
+  .btn--hold {
+    top: 30rem;
+  }
+  .dice {
+    height: 7rem;
+    top: 12rem;
+  }
+}
+@media all and (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  .player {
+    padding: 2.5rem;
+  }
+  .btn--new {
+    position: absolute;
+    left: 95%;
+    transform: translateX(-95%);
+    top: 2rem;
+  }
+  .btn--span {
+    display: none;
+  }
+  .btn::first-letter {
+    margin: 0;
+  }
+  .btn--roll {
+    top: 47.5%;
+    left: 10%;
+    transform: translateX(-10%);
+  }
+  .btn--hold {
+    top: 47.5%;
+    left: 95%;
+    transform: translateX(-95%);
+  }
+  .score {
+    margin-bottom: 5%;
+  }
+  .dice {
+    top: 47.5%;
+    height: 5rem;
+  }
+  .name {
+    margin: 0;
+  }
+  #name--1 {
+    margin-top: 2%;
+  }
 }
