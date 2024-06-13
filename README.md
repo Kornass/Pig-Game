@@ -2,7 +2,7 @@
 
 This is a dice game for 2 players created with HTML/CSS/JS. Only Desktop version.
 
-## Live: https://funny-mooncake-7fdcec.netlify.app/
+## Live: [https://funny-mooncake-7fdcec.netlify.app/](https://pkpiggame.netlify.app/)
 
 ## Reach 100 to win the game!
 
